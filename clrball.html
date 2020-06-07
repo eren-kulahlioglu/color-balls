@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Color || Balls </title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+ 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+    
+
+    <script type="text/javascript"></script>
+    <script src="clrball.js"></script>
+    <script src="index.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="clrball.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="tools">
+            <button onclick="changeRed()">RED </button>
+            <button onclick="changeBlue()">BLUE</button>
+            <button onclick="changeYellow()">YELLOW</button>
+            <button onclick="changeGreen()">GREEN</button>
+        </div>
+           
+        <div id="back">
+            <marquee direction="left" behavior="alternate" scrollamount="30">
+                <marquee direction="up" behavior="alternate" scrollamount="20" >
+                    <p id="ball"></p>
+                </marquee>
+            </marquee>
+
+            <marquee direction="right" behavior="alternate" scrollamount="30" >
+                <marquee direction="down" behavior="alternate" scrollamount="20">
+                    <p id="ball1"></p>
+                </marquee>
+            </marquee>
+
+            <marquee direction="left" behavior="alternate" scrollamount="30" >
+                <marquee direction="down" behavior="alternate" scrollamount="20" >
+                    <p id="ball2"></p>
+                </marquee>
+            </marquee>
+
+        </div>
+
+
+        <div id="tools">
+            <button onclick="changeBrown()">BROWN</button>
+            <button onclick="changeOrange()">ORANGE</button>
+            <button onclick="changeWhite()">WHITE</button>
+            <button onclick="changeBlack()">BLACK</button>
+        </div>
+
+</body>
+
+</html>
